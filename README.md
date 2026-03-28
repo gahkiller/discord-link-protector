@@ -109,6 +109,9 @@ This extension helps you **avoid getting hacked or scammed**.
 
 If you like this project, consider supporting:
 
+- 💰 Cash App: **$GodkillerYT**  
+  https://cash.app/$GodkillerYT  
+
 - GitHub Sponsors  
 - Ko-fi / Buy Me a Coffee  
 - Or share the project  
