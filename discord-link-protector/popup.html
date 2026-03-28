@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Protector Ultimate</title>
+  <style>
+    body { font-family: "Segoe UI", sans-serif; width: 270px; padding: 10px; background: #1e1e1e; color: #f0f0f0; }
+    h2 { font-size: 15px; margin-bottom: 4px; }
+    input { width: 100%; padding: 6px; margin-top: 4px; border-radius: 4px; border: none; }
+    button { width: 100%; margin-top: 5px; padding: 6px; border-radius: 4px; border: none; background: #4caf50; color: #fff; cursor: pointer; font-weight: bold; }
+    button:hover { background: #45a049; }
+    .section { margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h2>Whitelist Domain</h2>
+    <input type="text" id="whitelistDomain" placeholder="example.com">
+    <button id="addWhitelist">Add to Whitelist</button>
+  </div>
+
+  <div class="section">
+    <h2>Custom Suspicious Domain</h2>
+    <input type="text" id="suspiciousDomain" placeholder="badsite.com">
+    <button id="addSuspicious">Add Custom Domain</button>
+  </div>
+
+  <div class="section">
+    <h2>Settings</h2>
+    <label>
+      <input type="checkbox" id="httpWarning" checked> Warn on HTTP links
+    </label>
+    <label style="display:block;margin-top:6px;">
+      Fuzzy detection strictness:
+      <select id="fuzzyLevel">
+        <option value="1">Low</option>
+        <option value="2" selected>Medium</option>
+        <option value="3">High</option>
+      </select>
+    </label>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Link Protector",
+  "version": "4.0",
+  "description": "Protects against all suspicious links and server invites on Discord with strict security.",
+  "permissions": ["storage", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "discord-link-protector.png",
+      "48": "discord-link-protector.png",
+      "128": "discord-link-protector.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
