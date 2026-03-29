@@ -109,6 +109,7 @@ This extension helps you **avoid getting hacked or scammed**.
 
 If you like this project, consider supporting:
 
+- join my discored to day: https://discord.gg/4pnWZhhw4 
 - 💰 Cash App: **$GodkillerYT**
 - GitHub Sponsors  
 - Ko-fi / Buy Me a Coffee  
