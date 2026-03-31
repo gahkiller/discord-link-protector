@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Discord Link Protector",
+  "name": "Discord Link Protector PC 1.0",
   "version": "1.0",
   "description": "Protects against all suspicious links and server invites on Discord with strict security.",
   "permissions": ["storage", "scripting"],
