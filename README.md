@@ -1,4 +1,4 @@
-# 🛡️ Discord Link Protector
+# 🛡️ Discord Link Protector PC
 
 A powerful Chrome extension that protects Discord users from **scam links, malware, phishing, and unsafe server invites** in real time.
 
