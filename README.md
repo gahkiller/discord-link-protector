@@ -97,7 +97,7 @@ This extension helps you **avoid getting hacked or scammed**.
 
 ## 📌 Version
 
-**v4.1 – Max Lockdown**
+**v1.1 – Max Lockdown**
 - AI-style detection improvements  
 - Malware / virus detection added  
 - Expanded scam + domain lists  
